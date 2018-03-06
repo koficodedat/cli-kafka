@@ -1,0 +1,492 @@
+[2017-12-01 23:52:35,161] INFO KafkaConfig values: 
+	advertised.host.name = null
+	metric.reporters = []
+	quota.producer.default = 9223372036854775807
+	offsets.topic.num.partitions = 50
+	log.flush.interval.messages = 9223372036854775807
+	auto.create.topics.enable = true
+	controller.socket.timeout.ms = 30000
+	log.flush.interval.ms = null
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	replica.socket.receive.buffer.bytes = 65536
+	min.insync.replicas = 1
+	replica.fetch.wait.max.ms = 500
+	num.recovery.threads.per.data.dir = 1
+	ssl.keystore.type = JKS
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	default.replication.factor = 1
+	ssl.truststore.password = null
+	log.preallocate = false
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	fetch.purgatory.purge.interval.requests = 1000
+	ssl.endpoint.identification.algorithm = null
+	replica.socket.timeout.ms = 30000
+	message.max.bytes = 1000012
+	num.io.threads = 8
+	offsets.commit.required.acks = -1
+	log.flush.offset.checkpoint.interval.ms = 60000
+	delete.topic.enable = false
+	quota.window.size.seconds = 1
+	ssl.truststore.type = JKS
+	offsets.commit.timeout.ms = 5000
+	quota.window.num = 11
+	zookeeper.connect = localhost:2181
+	authorizer.class.name = 
+	num.replica.fetchers = 1
+	log.retention.ms = null
+	log.roll.jitter.hours = 0
+	log.cleaner.enable = true
+	offsets.load.buffer.size = 5242880
+	log.cleaner.delete.retention.ms = 86400000
+	ssl.client.auth = none
+	controlled.shutdown.max.retries = 3
+	queued.max.requests = 500
+	offsets.topic.replication.factor = 3
+	log.cleaner.threads = 1
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	socket.request.max.bytes = 104857600
+	ssl.trustmanager.algorithm = PKIX
+	zookeeper.session.timeout.ms = 6000
+	log.retention.bytes = -1
+	log.message.timestamp.type = CreateTime
+	sasl.kerberos.min.time.before.relogin = 60000
+	zookeeper.set.acl = false
+	connections.max.idle.ms = 600000
+	offsets.retention.minutes = 1440
+	replica.fetch.backoff.ms = 1000
+	inter.broker.protocol.version = 0.10.0-IV1
+	log.retention.hours = 168
+	num.partitions = 1
+	broker.id.generation.enable = true
+	listeners = null
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	log.roll.ms = null
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	ssl.cipher.suites = null
+	log.index.size.max.bytes = 10485760
+	ssl.keymanager.algorithm = SunX509
+	security.inter.broker.protocol = PLAINTEXT
+	replica.fetch.max.bytes = 1048576
+	advertised.port = null
+	log.cleaner.dedupe.buffer.size = 134217728
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	log.cleaner.io.buffer.size = 524288
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	zookeeper.connection.timeout.ms = 6000
+	controlled.shutdown.retry.backoff.ms = 5000
+	log.roll.hours = 168
+	log.cleanup.policy = delete
+	host.name = 
+	log.roll.jitter.ms = null
+	max.connections.per.ip = 2147483647
+	offsets.topic.segment.bytes = 104857600
+	background.threads = 10
+	quota.consumer.default = 9223372036854775807
+	request.timeout.ms = 30000
+	log.message.format.version = 0.10.0-IV1
+	log.index.interval.bytes = 4096
+	log.dir = /tmp/kafka-logs
+	log.segment.bytes = 1073741824
+	log.cleaner.backoff.ms = 15000
+	offset.metadata.max.bytes = 4096
+	ssl.truststore.location = null
+	group.max.session.timeout.ms = 300000
+	ssl.keystore.password = null
+	zookeeper.sync.time.ms = 2000
+	port = 9092
+	log.retention.minutes = null
+	log.segment.delete.delay.ms = 60000
+	log.dirs = /tmp/kafka-logs
+	controlled.shutdown.enable = true
+	compression.type = producer
+	max.connections.per.ip.overrides = 
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	auto.leader.rebalance.enable = true
+	leader.imbalance.check.interval.seconds = 300
+	log.cleaner.min.cleanable.ratio = 0.5
+	replica.lag.time.max.ms = 10000
+	num.network.threads = 3
+	ssl.key.password = null
+	reserved.broker.max.id = 1000
+	metrics.num.samples = 2
+	socket.send.buffer.bytes = 102400
+	ssl.protocol = TLS
+	socket.receive.buffer.bytes = 102400
+	ssl.keystore.location = null
+	replica.fetch.min.bytes = 1
+	broker.rack = null
+	unclean.leader.election.enable = true
+	sasl.enabled.mechanisms = [GSSAPI]
+	group.min.session.timeout.ms = 6000
+	log.cleaner.io.buffer.load.factor = 0.9
+	offsets.retention.check.interval.ms = 600000
+	producer.purgatory.purge.interval.requests = 1000
+	metrics.sample.window.ms = 30000
+	broker.id = 0
+	offsets.topic.compression.codec = 0
+	log.retention.check.interval.ms = 300000
+	advertised.listeners = null
+	leader.imbalance.per.broker.percentage = 10
+ (kafka.server.KafkaConfig)
+[2017-12-01 23:52:35,228] INFO starting (kafka.server.KafkaServer)
+[2017-12-01 23:52:35,241] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2017-12-01 23:52:35,584] INFO Loading logs. (kafka.log.LogManager)
+[2017-12-01 23:52:35,635] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-0/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,646] INFO Recovering unflushed segment 0 in log __consumer_offsets-0. (kafka.log.Log)
+[2017-12-01 23:52:35,649] INFO Completed load of log __consumer_offsets-0 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,659] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-1/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,660] INFO Recovering unflushed segment 0 in log __consumer_offsets-1. (kafka.log.Log)
+[2017-12-01 23:52:35,661] INFO Completed load of log __consumer_offsets-1 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,665] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-10/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,666] INFO Recovering unflushed segment 0 in log __consumer_offsets-10. (kafka.log.Log)
+[2017-12-01 23:52:35,668] INFO Completed load of log __consumer_offsets-10 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,671] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-11/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,672] INFO Recovering unflushed segment 0 in log __consumer_offsets-11. (kafka.log.Log)
+[2017-12-01 23:52:35,673] INFO Completed load of log __consumer_offsets-11 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,676] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-12/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,677] INFO Recovering unflushed segment 0 in log __consumer_offsets-12. (kafka.log.Log)
+[2017-12-01 23:52:35,677] INFO Completed load of log __consumer_offsets-12 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,680] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-13/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,681] INFO Recovering unflushed segment 0 in log __consumer_offsets-13. (kafka.log.Log)
+[2017-12-01 23:52:35,682] INFO Completed load of log __consumer_offsets-13 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,686] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-14/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,687] INFO Recovering unflushed segment 0 in log __consumer_offsets-14. (kafka.log.Log)
+[2017-12-01 23:52:35,688] INFO Completed load of log __consumer_offsets-14 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,692] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-15/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,693] INFO Recovering unflushed segment 0 in log __consumer_offsets-15. (kafka.log.Log)
+[2017-12-01 23:52:35,694] INFO Completed load of log __consumer_offsets-15 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,699] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-16/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,700] INFO Recovering unflushed segment 0 in log __consumer_offsets-16. (kafka.log.Log)
+[2017-12-01 23:52:35,701] INFO Completed load of log __consumer_offsets-16 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,704] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-17/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,705] INFO Recovering unflushed segment 0 in log __consumer_offsets-17. (kafka.log.Log)
+[2017-12-01 23:52:35,706] INFO Completed load of log __consumer_offsets-17 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,709] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-18/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,710] INFO Recovering unflushed segment 0 in log __consumer_offsets-18. (kafka.log.Log)
+[2017-12-01 23:52:35,711] INFO Completed load of log __consumer_offsets-18 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,714] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-19/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,715] INFO Recovering unflushed segment 0 in log __consumer_offsets-19. (kafka.log.Log)
+[2017-12-01 23:52:35,716] INFO Completed load of log __consumer_offsets-19 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,719] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-2/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,720] INFO Recovering unflushed segment 0 in log __consumer_offsets-2. (kafka.log.Log)
+[2017-12-01 23:52:35,721] INFO Completed load of log __consumer_offsets-2 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,725] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-20/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,726] INFO Recovering unflushed segment 0 in log __consumer_offsets-20. (kafka.log.Log)
+[2017-12-01 23:52:35,730] INFO Completed load of log __consumer_offsets-20 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,735] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-21/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,738] INFO Recovering unflushed segment 0 in log __consumer_offsets-21. (kafka.log.Log)
+[2017-12-01 23:52:35,741] INFO Completed load of log __consumer_offsets-21 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,749] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-22/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,751] INFO Recovering unflushed segment 0 in log __consumer_offsets-22. (kafka.log.Log)
+[2017-12-01 23:52:35,752] INFO Completed load of log __consumer_offsets-22 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,756] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-23/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,757] INFO Recovering unflushed segment 0 in log __consumer_offsets-23. (kafka.log.Log)
+[2017-12-01 23:52:35,758] INFO Completed load of log __consumer_offsets-23 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,761] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-24/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,762] INFO Recovering unflushed segment 0 in log __consumer_offsets-24. (kafka.log.Log)
+[2017-12-01 23:52:35,763] INFO Completed load of log __consumer_offsets-24 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,766] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-25/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,767] INFO Recovering unflushed segment 0 in log __consumer_offsets-25. (kafka.log.Log)
+[2017-12-01 23:52:35,768] INFO Completed load of log __consumer_offsets-25 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,770] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-26/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,771] INFO Recovering unflushed segment 0 in log __consumer_offsets-26. (kafka.log.Log)
+[2017-12-01 23:52:35,772] INFO Completed load of log __consumer_offsets-26 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,775] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-27/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,776] INFO Recovering unflushed segment 0 in log __consumer_offsets-27. (kafka.log.Log)
+[2017-12-01 23:52:35,781] INFO Completed load of log __consumer_offsets-27 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,786] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-28/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,787] INFO Recovering unflushed segment 0 in log __consumer_offsets-28. (kafka.log.Log)
+[2017-12-01 23:52:35,788] INFO Completed load of log __consumer_offsets-28 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,790] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-29/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,791] INFO Recovering unflushed segment 0 in log __consumer_offsets-29. (kafka.log.Log)
+[2017-12-01 23:52:35,792] INFO Completed load of log __consumer_offsets-29 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,795] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-3/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,796] INFO Recovering unflushed segment 0 in log __consumer_offsets-3. (kafka.log.Log)
+[2017-12-01 23:52:35,797] INFO Completed load of log __consumer_offsets-3 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,799] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-30/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,800] INFO Recovering unflushed segment 0 in log __consumer_offsets-30. (kafka.log.Log)
+[2017-12-01 23:52:35,802] INFO Completed load of log __consumer_offsets-30 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,806] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-31/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,807] INFO Recovering unflushed segment 0 in log __consumer_offsets-31. (kafka.log.Log)
+[2017-12-01 23:52:35,808] INFO Completed load of log __consumer_offsets-31 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,811] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-32/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,812] INFO Recovering unflushed segment 0 in log __consumer_offsets-32. (kafka.log.Log)
+[2017-12-01 23:52:35,813] INFO Completed load of log __consumer_offsets-32 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,816] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-33/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,818] INFO Recovering unflushed segment 0 in log __consumer_offsets-33. (kafka.log.Log)
+[2017-12-01 23:52:35,819] INFO Completed load of log __consumer_offsets-33 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,823] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-34/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,828] INFO Recovering unflushed segment 0 in log __consumer_offsets-34. (kafka.log.Log)
+[2017-12-01 23:52:35,829] INFO Completed load of log __consumer_offsets-34 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,831] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-35/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,832] INFO Recovering unflushed segment 0 in log __consumer_offsets-35. (kafka.log.Log)
+[2017-12-01 23:52:35,838] INFO Completed load of log __consumer_offsets-35 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,843] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-36/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,844] INFO Recovering unflushed segment 0 in log __consumer_offsets-36. (kafka.log.Log)
+[2017-12-01 23:52:35,844] INFO Completed load of log __consumer_offsets-36 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,848] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-37/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,889] INFO Recovering unflushed segment 0 in log __consumer_offsets-37. (kafka.log.Log)
+[2017-12-01 23:52:35,917] INFO Completed load of log __consumer_offsets-37 with log end offset 3137 (kafka.log.Log)
+[2017-12-01 23:52:35,920] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-38/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,921] INFO Recovering unflushed segment 0 in log __consumer_offsets-38. (kafka.log.Log)
+[2017-12-01 23:52:35,924] INFO Completed load of log __consumer_offsets-38 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,928] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-39/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,931] INFO Recovering unflushed segment 0 in log __consumer_offsets-39. (kafka.log.Log)
+[2017-12-01 23:52:35,933] INFO Completed load of log __consumer_offsets-39 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,935] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-4/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,937] INFO Recovering unflushed segment 0 in log __consumer_offsets-4. (kafka.log.Log)
+[2017-12-01 23:52:35,940] INFO Completed load of log __consumer_offsets-4 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,947] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-40/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,950] INFO Recovering unflushed segment 0 in log __consumer_offsets-40. (kafka.log.Log)
+[2017-12-01 23:52:35,951] INFO Completed load of log __consumer_offsets-40 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,955] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-41/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,957] INFO Recovering unflushed segment 0 in log __consumer_offsets-41. (kafka.log.Log)
+[2017-12-01 23:52:35,962] INFO Completed load of log __consumer_offsets-41 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,965] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-42/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,970] INFO Recovering unflushed segment 0 in log __consumer_offsets-42. (kafka.log.Log)
+[2017-12-01 23:52:35,973] INFO Completed load of log __consumer_offsets-42 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,982] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-43/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,983] INFO Recovering unflushed segment 0 in log __consumer_offsets-43. (kafka.log.Log)
+[2017-12-01 23:52:35,990] INFO Completed load of log __consumer_offsets-43 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:35,995] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-44/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:35,997] INFO Recovering unflushed segment 0 in log __consumer_offsets-44. (kafka.log.Log)
+[2017-12-01 23:52:36,003] INFO Completed load of log __consumer_offsets-44 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:36,007] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-45/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,008] INFO Recovering unflushed segment 0 in log __consumer_offsets-45. (kafka.log.Log)
+[2017-12-01 23:52:36,011] INFO Completed load of log __consumer_offsets-45 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:36,016] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-46/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,018] INFO Recovering unflushed segment 0 in log __consumer_offsets-46. (kafka.log.Log)
+[2017-12-01 23:52:36,019] INFO Completed load of log __consumer_offsets-46 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:36,024] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-47/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,025] INFO Recovering unflushed segment 0 in log __consumer_offsets-47. (kafka.log.Log)
+[2017-12-01 23:52:36,026] INFO Completed load of log __consumer_offsets-47 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:36,029] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-48/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,031] INFO Recovering unflushed segment 0 in log __consumer_offsets-48. (kafka.log.Log)
+[2017-12-01 23:52:36,036] INFO Completed load of log __consumer_offsets-48 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:36,039] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-49/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,041] INFO Recovering unflushed segment 0 in log __consumer_offsets-49. (kafka.log.Log)
+[2017-12-01 23:52:36,042] INFO Completed load of log __consumer_offsets-49 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:36,051] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-5/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,052] INFO Recovering unflushed segment 0 in log __consumer_offsets-5. (kafka.log.Log)
+[2017-12-01 23:52:36,054] INFO Completed load of log __consumer_offsets-5 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:36,059] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-6/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,060] INFO Recovering unflushed segment 0 in log __consumer_offsets-6. (kafka.log.Log)
+[2017-12-01 23:52:36,062] INFO Completed load of log __consumer_offsets-6 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:36,065] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-7/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,065] INFO Recovering unflushed segment 0 in log __consumer_offsets-7. (kafka.log.Log)
+[2017-12-01 23:52:36,066] INFO Completed load of log __consumer_offsets-7 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:36,070] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-8/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,071] INFO Recovering unflushed segment 0 in log __consumer_offsets-8. (kafka.log.Log)
+[2017-12-01 23:52:36,072] INFO Completed load of log __consumer_offsets-8 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:36,075] WARN Found a corrupted index file, /tmp/kafka-logs/__consumer_offsets-9/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,076] INFO Recovering unflushed segment 0 in log __consumer_offsets-9. (kafka.log.Log)
+[2017-12-01 23:52:36,078] INFO Completed load of log __consumer_offsets-9 with log end offset 0 (kafka.log.Log)
+[2017-12-01 23:52:36,083] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-deadLetter460-topic-0/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,084] INFO Recovering unflushed segment 0 in log df-dev-deadLetter460-topic-0. (kafka.log.Log)
+[2017-12-01 23:52:36,085] INFO Completed load of log df-dev-deadLetter460-topic-0 with log end offset 1 (kafka.log.Log)
+[2017-12-01 23:52:36,090] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-deadLetter460-topic-1/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,095] INFO Recovering unflushed segment 0 in log df-dev-deadLetter460-topic-1. (kafka.log.Log)
+[2017-12-01 23:52:36,100] INFO Completed load of log df-dev-deadLetter460-topic-1 with log end offset 2 (kafka.log.Log)
+[2017-12-01 23:52:36,104] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-edi460-deadLetter-inbound-X12-0/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,109] INFO Recovering unflushed segment 0 in log df-dev-edi460-deadLetter-inbound-X12-0. (kafka.log.Log)
+[2017-12-01 23:52:36,111] INFO Completed load of log df-dev-edi460-deadLetter-inbound-X12-0 with log end offset 57 (kafka.log.Log)
+[2017-12-01 23:52:36,115] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-edi460-deadLetter-inbound-X12-1/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,117] INFO Recovering unflushed segment 0 in log df-dev-edi460-deadLetter-inbound-X12-1. (kafka.log.Log)
+[2017-12-01 23:52:36,119] INFO Completed load of log df-dev-edi460-deadLetter-inbound-X12-1 with log end offset 59 (kafka.log.Log)
+[2017-12-01 23:52:36,127] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-edi460-inbound-X12-0/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,131] INFO Recovering unflushed segment 0 in log df-dev-edi460-inbound-X12-0. (kafka.log.Log)
+[2017-12-01 23:52:36,133] INFO Completed load of log df-dev-edi460-inbound-X12-0 with log end offset 149 (kafka.log.Log)
+[2017-12-01 23:52:36,135] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-edi460-inbound-XML-0/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,138] INFO Recovering unflushed segment 0 in log df-dev-edi460-inbound-XML-0. (kafka.log.Log)
+[2017-12-01 23:52:36,140] INFO Completed load of log df-dev-edi460-inbound-XML-0 with log end offset 23 (kafka.log.Log)
+[2017-12-01 23:52:36,145] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-edi460-rawData-inbound-JSON-0/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,148] INFO Recovering unflushed segment 0 in log df-dev-edi460-rawData-inbound-JSON-0. (kafka.log.Log)
+[2017-12-01 23:52:36,150] INFO Completed load of log df-dev-edi460-rawData-inbound-JSON-0 with log end offset 14 (kafka.log.Log)
+[2017-12-01 23:52:36,154] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-edi460-topic-0/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,157] INFO Recovering unflushed segment 0 in log df-dev-edi460-topic-0. (kafka.log.Log)
+[2017-12-01 23:52:36,159] INFO Completed load of log df-dev-edi460-topic-0 with log end offset 6 (kafka.log.Log)
+[2017-12-01 23:52:36,163] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-edi460deadLetter-inbound-X12-0/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,164] INFO Recovering unflushed segment 0 in log df-dev-edi460deadLetter-inbound-X12-0. (kafka.log.Log)
+[2017-12-01 23:52:36,166] INFO Completed load of log df-dev-edi460deadLetter-inbound-X12-0 with log end offset 5 (kafka.log.Log)
+[2017-12-01 23:52:36,169] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-edi460deadLetter-inbound-X12-1/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,172] INFO Recovering unflushed segment 0 in log df-dev-edi460deadLetter-inbound-X12-1. (kafka.log.Log)
+[2017-12-01 23:52:36,174] INFO Completed load of log df-dev-edi460deadLetter-inbound-X12-1 with log end offset 5 (kafka.log.Log)
+[2017-12-01 23:52:36,178] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-edi460rawData-inbound-JSON-0/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,179] INFO Recovering unflushed segment 0 in log df-dev-edi460rawData-inbound-JSON-0. (kafka.log.Log)
+[2017-12-01 23:52:36,180] INFO Completed load of log df-dev-edi460rawData-inbound-JSON-0 with log end offset 6 (kafka.log.Log)
+[2017-12-01 23:52:36,182] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-edi460rawData-inbound-JSON-1/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,184] INFO Recovering unflushed segment 0 in log df-dev-edi460rawData-inbound-JSON-1. (kafka.log.Log)
+[2017-12-01 23:52:36,185] INFO Completed load of log df-dev-edi460rawData-inbound-JSON-1 with log end offset 8 (kafka.log.Log)
+[2017-12-01 23:52:36,187] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-rawData460-topic-0/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,190] INFO Recovering unflushed segment 0 in log df-dev-rawData460-topic-0. (kafka.log.Log)
+[2017-12-01 23:52:36,191] INFO Completed load of log df-dev-rawData460-topic-0 with log end offset 1 (kafka.log.Log)
+[2017-12-01 23:52:36,194] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-rawData460-topic-1/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,195] INFO Recovering unflushed segment 0 in log df-dev-rawData460-topic-1. (kafka.log.Log)
+[2017-12-01 23:52:36,197] INFO Completed load of log df-dev-rawData460-topic-1 with log end offset 1 (kafka.log.Log)
+[2017-12-01 23:52:36,202] WARN Found a corrupted index file, /tmp/kafka-logs/df-dev-xml460-topic-0/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-12-01 23:52:36,203] INFO Recovering unflushed segment 0 in log df-dev-xml460-topic-0. (kafka.log.Log)
+[2017-12-01 23:52:36,204] INFO Completed load of log df-dev-xml460-topic-0 with log end offset 2 (kafka.log.Log)
+[2017-12-01 23:52:36,206] INFO Logs loading complete. (kafka.log.LogManager)
+[2017-12-01 23:52:36,294] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2017-12-01 23:52:36,295] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2017-12-01 23:52:36,353] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2017-12-01 23:52:36,355] INFO [Socket Server on Broker 0], Started 1 acceptor threads (kafka.network.SocketServer)
+[2017-12-01 23:52:36,391] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:36,391] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:36,450] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 23:52:36,461] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 23:52:36,461] INFO 0 successfully elected as leader (kafka.server.ZookeeperLeaderElector)
+[2017-12-01 23:52:37,138] INFO New leader is 0 (kafka.server.ZookeeperLeaderElector$LeaderChangeListener)
+[2017-12-01 23:52:37,142] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:37,142] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:37,194] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.GroupCoordinator)
+[2017-12-01 23:52:37,195] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.GroupCoordinator)
+[2017-12-01 23:52:37,200] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 17 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,224] INFO [ThrottledRequestReaper-Produce], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-12-01 23:52:37,225] INFO [ThrottledRequestReaper-Fetch], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-12-01 23:52:37,238] INFO Will not load MX4J, mx4j-tools.jar is not in the classpath (kafka.utils.Mx4jLoader$)
+[2017-12-01 23:52:37,282] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 23:52:37,284] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 23:52:37,286] INFO Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT -> EndPoint(localhost,9092,PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-12-01 23:52:37,306] INFO [Kafka Server 0], started (kafka.server.KafkaServer)
+[2017-12-01 23:52:37,517] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [__consumer_offsets,32],[__consumer_offsets,16],[__consumer_offsets,49],[__consumer_offsets,44],[df-dev-edi460deadLetter-inbound-X12,1],[__consumer_offsets,28],[__consumer_offsets,17],[__consumer_offsets,23],[__consumer_offsets,7],[df-dev-edi460rawData-inbound-JSON,0],[__consumer_offsets,4],[__consumer_offsets,29],[__consumer_offsets,35],[__consumer_offsets,3],[df-dev-rawData460-topic,0],[__consumer_offsets,24],[df-dev-edi460-topic,0],[__consumer_offsets,41],[df-dev-edi460-deadLetter-inbound-X12,0],[__consumer_offsets,0],[__consumer_offsets,38],[__consumer_offsets,13],[__consumer_offsets,8],[df-dev-edi460-inbound-XML,0],[__consumer_offsets,5],[__consumer_offsets,39],[__consumer_offsets,36],[__consumer_offsets,40],[__consumer_offsets,45],[__consumer_offsets,15],[__consumer_offsets,33],[__consumer_offsets,37],[__consumer_offsets,21],[__consumer_offsets,6],[df-dev-deadLetter460-topic,1],[__consumer_offsets,11],[__consumer_offsets,20],[df-dev-edi460-inbound-X12,0],[__consumer_offsets,47],[df-dev-rawData460-topic,1],[__consumer_offsets,2],[__consumer_offsets,27],[df-dev-edi460-rawData-inbound-JSON,0],[__consumer_offsets,34],[__consumer_offsets,9],[__consumer_offsets,22],[__consumer_offsets,42],[__consumer_offsets,14],[__consumer_offsets,25],[__consumer_offsets,10],[df-dev-deadLetter460-topic,0],[__consumer_offsets,48],[__consumer_offsets,31],[df-dev-xml460-topic,0],[__consumer_offsets,18],[__consumer_offsets,19],[__consumer_offsets,12],[df-dev-edi460rawData-inbound-JSON,1],[df-dev-edi460deadLetter-inbound-X12,0],[__consumer_offsets,46],[__consumer_offsets,43],[__consumer_offsets,1],[__consumer_offsets,26],[__consumer_offsets,30],[df-dev-edi460-deadLetter-inbound-X12,1] (kafka.server.ReplicaFetcherManager)
+[2017-12-01 23:52:37,744] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,25] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,752] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,25] in 7 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,752] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,31] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,755] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,31] in 2 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,755] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,37] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,765] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [__consumer_offsets,32],[__consumer_offsets,16],[__consumer_offsets,49],[__consumer_offsets,44],[df-dev-edi460deadLetter-inbound-X12,1],[__consumer_offsets,28],[__consumer_offsets,17],[__consumer_offsets,23],[__consumer_offsets,7],[df-dev-edi460rawData-inbound-JSON,0],[__consumer_offsets,4],[__consumer_offsets,29],[__consumer_offsets,35],[__consumer_offsets,3],[df-dev-rawData460-topic,0],[__consumer_offsets,24],[df-dev-edi460-topic,0],[__consumer_offsets,41],[df-dev-edi460-deadLetter-inbound-X12,0],[__consumer_offsets,0],[__consumer_offsets,38],[__consumer_offsets,13],[__consumer_offsets,8],[df-dev-edi460-inbound-XML,0],[__consumer_offsets,5],[__consumer_offsets,39],[__consumer_offsets,36],[__consumer_offsets,40],[__consumer_offsets,45],[__consumer_offsets,15],[__consumer_offsets,33],[__consumer_offsets,37],[__consumer_offsets,21],[__consumer_offsets,6],[df-dev-deadLetter460-topic,1],[__consumer_offsets,11],[__consumer_offsets,20],[df-dev-edi460-inbound-X12,0],[__consumer_offsets,47],[df-dev-rawData460-topic,1],[__consumer_offsets,2],[__consumer_offsets,27],[df-dev-edi460-rawData-inbound-JSON,0],[__consumer_offsets,34],[__consumer_offsets,9],[__consumer_offsets,22],[__consumer_offsets,42],[__consumer_offsets,14],[__consumer_offsets,25],[__consumer_offsets,10],[df-dev-deadLetter460-topic,0],[__consumer_offsets,48],[__consumer_offsets,31],[df-dev-xml460-topic,0],[__consumer_offsets,18],[__consumer_offsets,19],[__consumer_offsets,12],[df-dev-edi460rawData-inbound-JSON,1],[df-dev-edi460deadLetter-inbound-X12,0],[__consumer_offsets,46],[__consumer_offsets,43],[__consumer_offsets,1],[__consumer_offsets,26],[__consumer_offsets,30],[df-dev-edi460-deadLetter-inbound-X12,1] (kafka.server.ReplicaFetcherManager)
+[2017-12-01 23:52:37,823] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,37] in 68 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,823] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,43] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,826] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,43] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,826] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,49] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,829] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,49] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,829] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,44] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,833] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,44] in 4 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,833] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,1] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,836] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,1] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,836] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,7] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,839] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,7] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,839] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,13] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,842] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,13] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,842] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,19] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,845] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,19] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,845] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,2] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,848] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,2] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,848] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,8] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,852] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,8] in 4 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,852] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,14] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,855] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,14] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,855] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,20] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,858] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,20] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,858] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,26] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,861] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,26] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,861] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,32] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,864] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,32] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,864] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,38] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,867] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,38] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,867] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,3] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,870] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,3] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,870] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,9] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,873] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,9] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,873] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,15] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,877] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,15] in 4 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,877] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,21] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,879] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,21] in 2 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,879] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,27] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,882] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,27] in 2 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,883] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,33] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,885] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,33] in 2 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,885] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,39] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,888] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,39] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,888] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,45] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,891] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,45] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,891] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,22] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,894] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,22] in 2 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,894] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,28] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,896] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,28] in 2 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,896] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,34] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,900] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,34] in 4 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,900] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,40] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,903] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,40] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,903] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,46] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,906] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,46] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,906] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,41] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,909] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,41] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,909] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,47] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,912] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,47] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,912] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,4] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,914] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,4] in 2 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,914] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,10] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,918] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,10] in 4 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,918] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,16] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,921] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,16] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,921] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,5] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,924] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,5] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,924] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,11] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,927] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,11] in 3 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,927] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,17] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,932] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,17] in 5 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,932] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,23] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,933] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,23] in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,933] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,29] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,934] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,29] in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,934] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,35] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,935] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,35] in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,935] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,0] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,937] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,0] in 2 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,937] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,6] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,943] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,6] in 6 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,943] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,12] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,944] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,12] in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,944] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,18] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,945] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,18] in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,945] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,24] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,947] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,24] in 2 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,947] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,30] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,948] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,30] in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,948] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,36] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,949] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,36] in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,949] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,42] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,950] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,42] in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,950] INFO [Group Metadata Manager on Broker 0]: Loading offsets and group metadata from [__consumer_offsets,48] (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:37,951] INFO [Group Metadata Manager on Broker 0]: Finished loading offsets from [__consumer_offsets,48] in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-12-01 23:52:42,428] INFO [Kafka Server 0], shutting down (kafka.server.KafkaServer)
+[2017-12-01 23:52:42,429] INFO [Kafka Server 0], Starting controlled shutdown (kafka.server.KafkaServer)
+[2017-12-01 23:52:42,452] INFO [Kafka Server 0], Controlled shutdown succeeded (kafka.server.KafkaServer)
+[2017-12-01 23:52:42,457] INFO [Socket Server on Broker 0], Shutting down (kafka.network.SocketServer)
+[2017-12-01 23:52:42,462] INFO [Socket Server on Broker 0], Shutdown completed (kafka.network.SocketServer)
+[2017-12-01 23:52:42,463] INFO [Kafka Request Handler on Broker 0], shutting down (kafka.server.KafkaRequestHandlerPool)
+[2017-12-01 23:52:42,464] INFO [Kafka Request Handler on Broker 0], shut down completely (kafka.server.KafkaRequestHandlerPool)
+[2017-12-01 23:52:42,467] INFO [ThrottledRequestReaper-Produce], Shutting down (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-12-01 23:52:43,246] INFO [ThrottledRequestReaper-Produce], Shutdown completed (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-12-01 23:52:43,246] INFO [ThrottledRequestReaper-Produce], Stopped  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-12-01 23:52:43,247] INFO [ThrottledRequestReaper-Fetch], Shutting down (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-12-01 23:52:44,248] INFO [ThrottledRequestReaper-Fetch], Stopped  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-12-01 23:52:44,248] INFO [ThrottledRequestReaper-Fetch], Shutdown completed (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-12-01 23:52:44,249] INFO [KafkaApi-0] Shutdown complete. (kafka.server.KafkaApis)
+[2017-12-01 23:52:44,250] INFO [Replica Manager on Broker 0]: Shutting down (kafka.server.ReplicaManager)
+[2017-12-01 23:52:44,250] INFO [ReplicaFetcherManager on broker 0] shutting down (kafka.server.ReplicaFetcherManager)
+[2017-12-01 23:52:44,251] INFO [ReplicaFetcherManager on broker 0] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2017-12-01 23:52:44,251] INFO [ExpirationReaper-0], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:44,301] INFO [ExpirationReaper-0], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:44,301] INFO [ExpirationReaper-0], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:44,301] INFO [ExpirationReaper-0], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:44,306] INFO [ExpirationReaper-0], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:44,306] INFO [ExpirationReaper-0], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:44,309] INFO [Replica Manager on Broker 0]: Shut down completely (kafka.server.ReplicaManager)
+[2017-12-01 23:52:44,310] INFO Shutting down. (kafka.log.LogManager)
+[2017-12-01 23:52:44,344] INFO Shutdown complete. (kafka.log.LogManager)
+[2017-12-01 23:52:44,344] INFO [GroupCoordinator 0]: Shutting down. (kafka.coordinator.GroupCoordinator)
+[2017-12-01 23:52:44,345] INFO [ExpirationReaper-0], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:44,444] INFO [ExpirationReaper-0], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:44,444] INFO [ExpirationReaper-0], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:44,444] INFO [ExpirationReaper-0], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:44,641] INFO [ExpirationReaper-0], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:44,641] INFO [ExpirationReaper-0], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 23:52:44,641] INFO [GroupCoordinator 0]: Shutdown complete. (kafka.coordinator.GroupCoordinator)
+[2017-12-01 23:52:44,650] INFO [Kafka Server 0], shut down completed (kafka.server.KafkaServer)
